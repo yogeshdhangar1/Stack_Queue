@@ -5,7 +5,7 @@ public class stackDemo {
     public void push (int data){
         list.addLast(data);
     }
-    public void pop(int data){
+    public void pop(){
         list.removeLast();
     }
 
@@ -14,6 +14,8 @@ public class stackDemo {
         stk.push(70);
         stk.push(30);
         stk.push(56);
+        System.out.println(stk.list);
+        stk.pop();
         System.out.println(stk.list);
     }
 }
